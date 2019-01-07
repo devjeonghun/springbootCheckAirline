@@ -19,7 +19,7 @@ import org.springframework.util.StringUtils;
 public class Batch {
 	private final static String KOREANAIR_URL = "https://www.koreanair.com/api/fly/revenue/from/GMP/to/HIN/on/02-04-2019-0000";
 	private final static String KOREANAIR2_URL = "https://www.koreanair.com/api/fly/revenue/from/HIN/to/GMP/on/02-05-2019-0000";
-	private final static String LINE_TOKEN = "qukZiB2JkY9uYP2m9n5nCUWuysRzV7OIhWFCxiOI851";
+	private final static String LINE_TOKEN = "";
 	private final static String LINE_URL = "https://notify-api.line.me/api/notify";
 
 	@Scheduled(cron = "0 */1 * * * *")
